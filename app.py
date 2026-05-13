@@ -43,7 +43,7 @@ class SherlockAIApp(ctk.CTk):
         self.log_file = self.log_dir / "sherlock_chat_log.txt"
         self.security_log_file = self.log_dir / "sherlock_security_log.txt"
 
-        self.title("Sherlock AI // Local Cyberpunk Security Assistant")
+        self.title("Sherlock AI // Local Security Assistant")
         self.geometry("1200x820")
         self.minsize(900, 650)
         self.configure(fg_color=BLACK)
